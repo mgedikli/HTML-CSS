@@ -1,0 +1,63 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /
+textarea {overflow:auto;}
+
+/***** RESET *****/
+
+@font-face {
+    font-family: 'Open_Sans_Condensed';
+	src: url (fonts/ open_sans_condensed_webfont.eot);
+    src: lokal('Open Sans Condensed'),
+         url('fonts/ open_sans_condensed_webfont.woff') format ('woff'),
+         url('fonts/ open_sans_condensed_webfont.tff') format ('truetype'),
+         url('fonts/ open_sans_condensed_webfont.svg#Open Sans Condensed') format ('svg');
+}
+
+.ust{ width:100%; height:46px; background:#333 }
+.orta1{ width:100%; height:455px; background:#FFF; padding:120px 0 0 0 }
+.orta2{ width:100%; height:200px; background:#FFF }
+.alt{ width:100%; height:82px; background:#FFF }
+.menu{width:1078px; height:46px; margin:0 auto }
+.menu ul li{ float:left}
+.menu ul li a{ display:block; text-indent:-2000px;}
+.menu ul li#logo a{ width:19px; height:23px; background:url(images/Apfel.jpg); margin:11px 0 0 0 }
+.menu ul li#store a{ width:130px; height:20px; background: url(images/store.jpg); margin:15px 0 0 0 }
+.menu ul li#mac a{ width:130px; height:20px; background: url(images/mac.jpg); margin:15px 0 0 0 }
+.menu ul li#iphone a{ width:130px; height:20px; background: url(images/iphone.jpg); margin:15px 0 0 0 }
+.menu ul li#watch a{ width:130px; height:20px; background: url(images/mac.jpg); margin:15px 0 0 0 }
+.menu ul li#ipad a{ width:130px; height:20px; background: url(images/ipad.jpg); margin:15px 0 0 0 }
+.menu ul li#ipod a{ width:130px; height:20px; background: url(images/ipod.jpg); margin:15px 0 0 0 }
+.menu ul li#itunes a{ width:130px; height:20px; background: url(images/ipad.jpg); margin:15px 0 0 0 }
+.menu ul li#support a{ width:130px; height:20px; background: url(images/store.jpg); margin:15px 0 0 0 }
+.menu ul li#search a{ width:19px; height:19px; background: url(images/search1.png); margin:15px 0 0 0 }
+.menu ul li a:hover{ opacity:0.5}
+.spot{ width:280px; height:150px; background: url(images/iPadAir2.png) center top no-repeat; margin:0 auto; text-align:center; padding:70px 20px 0 0; font:20px 'Open_Sans_Condensed'}
+.ipadgorsel{ width:1193px; height:34px; background: url(images/ipadhandy.jpg); margin:0 auto}
+.ipadalt{  width:375px; height:40px; margin:50px auto 0 auto}
+.ipadaltsol{ width:145px; height:40px; float:left}
+.ipadaltsag{ width:220px; height:40px; float:left; margin:0 0 0 10px}
+.ipadaltsol a{ font:25px 'Open_Sans_Condensed'; color:#08c; text-decoration:none}
+.ipadaltsag a{ display:block; width:220px; height:40px; font:25px 'Open_Sans_Condensed'; color:#08c; text-decoration:none; background:url(images/sagok1.jpg) right no-repeat; }
+.ipadaltsol a:hover{ color:#333;}
+.ipadaltsag a:hover{ color:#333; background: url(images/sagok2.jpg) right no-repeat;}
+.orta2 ul li{ float:left; display:block; width:25%}
+.orta2 ul li a:{ display:block; height:200px; text-indent:-2000px}
+.orta2 ul li#a1 a:{ background:url(images/imac.jpg)}
+.orta2 ul li#a2 a:{ background: url(images/imac2.jpg)}
+.orta2 ul li#a3 a:{ background: url(images/imac3.jpg)}
+.orta2 ul li#a4 a:{ background: url(images/imac4.jpg)}
